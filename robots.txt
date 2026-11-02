@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://godrejnewlaunchbannerghatta.in/sitemap.xml
