@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Project Config & Dev Helper -->
-    <script src="config.js?v=5.0"></script>
+    <script src="config.js?v=6.0"></script>
     <script src="dev-local.js"></script>
 
     <!-- Google Tag Manager & DataLayer Init -->
@@ -127,7 +127,7 @@
 
     <!-- Compiled Design Stylesheet & Full Custom CSS from Next.js -->
     <link rel="stylesheet" href="css/layout.css?v=2.0" />
-    <link rel="stylesheet" href="css/custom.css?v=3.0" />
+    <link rel="stylesheet" href="css/custom.css?v=4.0" />
     <link rel="stylesheet" href="form.css?v=2.0" />
   </head>
   <body class="antialiased bg-white text-[#212529]">
@@ -152,7 +152,7 @@
             <img
               src="images/logo/logo.png"
               alt="Godrej Vanantara Bannerghatta Road"
-              class="h-[40px] sm:h-[50px] md:h-[60px] lg:h-[70px] xl:h-[76px] w-auto object-contain transition-all duration-300"
+              class="h-[34px] sm:h-[40px] md:h-[46px] lg:h-[52px] xl:h-[56px] max-w-[190px] sm:max-w-[220px] md:max-w-[250px] lg:max-w-[280px] w-auto object-contain transition-all duration-300"
             />
           </a>
 
@@ -164,7 +164,6 @@
             <a href="#pricing" class="text-[13px] xl:text-[14.5px] font-semibold text-[#2d3748] hover:text-black transition-colors whitespace-nowrap">PRICE LIST</a>
             <a href="#amenities" class="text-[13px] xl:text-[14.5px] font-semibold text-[#2d3748] hover:text-black transition-colors whitespace-nowrap">AMENITIES</a>
             <a href="#location" class="text-[13px] xl:text-[14.5px] font-semibold text-[#2d3748] hover:text-black transition-colors whitespace-nowrap">LOCATION</a>
-            <a href="#masterplan" class="text-[13px] xl:text-[14.5px] font-semibold text-[#2d3748] hover:text-black transition-colors whitespace-nowrap">MASTER &amp; FLOOR PLAN</a>
           </div>
 
           <!-- Desktop Book Site Visit Button -->
@@ -209,7 +208,6 @@
         <a href="#pricing" onclick="closeMobileNav()" class="block py-3 px-6 text-[15px] font-semibold text-[#2d3748] hover:text-black border-b border-black/5">PRICE LIST</a>
         <a href="#amenities" onclick="closeMobileNav()" class="block py-3 px-6 text-[15px] font-semibold text-[#2d3748] hover:text-black border-b border-black/5">AMENITIES</a>
         <a href="#location" onclick="closeMobileNav()" class="block py-3 px-6 text-[15px] font-semibold text-[#2d3748] hover:text-black border-b border-black/5">LOCATION</a>
-        <a href="#masterplan" onclick="closeMobileNav()" class="block py-3 px-6 text-[15px] font-semibold text-[#2d3748] hover:text-black border-b border-black/5">MASTER &amp; FLOOR PLAN</a>
         <div class="p-4">
           <button
             type="button"
@@ -290,8 +288,6 @@
                 <i class="fa-solid fa-location-dot text-[12px]"></i>
                 <strong class="text-white font-semibold">Bannerghatta Road, Bangalore</strong>
               </span>
-              <span class="text-white/30">•</span>
-              <span>South Bengaluru's Premier 36-Acre Township</span>
             </div>
 
           </div>
@@ -366,7 +362,7 @@
               <div class="flex flex-wrap items-baseline gap-2 sm:gap-3">
                 <span class="text-xs sm:text-[13px] uppercase tracking-wider text-neutral-300 font-medium">Price Starts At</span>
                 <span class="text-lg sm:text-xl font-medium text-neutral-400 line-through">₹ 1.8 Cr*</span>
-                <strong class="text-[30px] xs:text-[36px] sm:text-[40px] font-black tracking-tight leading-none text-white">
+                <strong class="blink-price text-[30px] xs:text-[36px] sm:text-[40px] font-black tracking-tight leading-none text-white">
                   ₹ 1.57 Cr*
                 </strong>
               </div>
@@ -1784,7 +1780,7 @@
               >
                 <!-- Hidden inputs -->
                 <input type="hidden" name="form_name" value="Developer Section Form" />
-                <input type="hidden" name="projectId" value="3528246" />
+                <input type="hidden" name="projectId" value="3528362" />
                 <input type="hidden" name="projectName" value="Godrej Vanantara" />
                 <input type="hidden" name="sheet_name" value="Bangalore" />
                 <input type="hidden" name="secret" value="6c7f9ad8b2a1e0f4d5a8c0b9f6e2a4d10" />
@@ -1926,7 +1922,7 @@
         <!-- RERA Info & Disclaimer -->
         <div class="w-full text-left text-neutral-500 text-[11px] leading-relaxed space-y-1.5">
           <p class="m-0">
-            Project RERA NO.: <strong class="text-neutral-300">Coming Soon (Subject to official approvals)</strong>
+            Project RERA NO.: <strong id="footer-rera-no" class="text-neutral-300">PRM/KA/RERA/1251/310/PR/130526/008653</strong>
           </p>
           <p class="m-0">
             <strong class="text-neutral-400">Disclaimer:</strong> This is not the official website of the developer. The information depicted herein, including master plans, floor plans, furniture layout, fittings, illustrations, specifications, designs, dimensions, rendered views, colours, amenities and facilities etc., are subject to change without notification as may be required by the relevant authorities or the Developer's architect. This advertisement is an invitation to offer and shall not be construed as an offer or contract. * Prices subject to change without notice. All taxes extra as applicable.
@@ -1975,7 +1971,7 @@
         >
           <!-- Hidden inputs -->
           <input type="hidden" name="form_name" value="Popup Modal" />
-          <input type="hidden" name="projectId" value="3528246" />
+          <input type="hidden" name="projectId" value="3528362" />
           <input type="hidden" name="projectName" value="Godrej Vanantara" />
           <input type="hidden" name="sheet_name" value="Bangalore" />
           <input type="hidden" name="secret" value="6c7f9ad8b2a1e0f4d5a8c0b9f6e2a4d10" />
