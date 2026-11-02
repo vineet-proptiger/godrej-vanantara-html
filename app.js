@@ -1,5 +1,5 @@
 /* ===============================================================
-   GODREJ VANANTARA — JAVASCRIPT UI ENGINE
+   SIPANI CITY — JAVASCRIPT UI ENGINE
 =============================================================== */
 
 // ── 1. Hero Concept 3: Horizontal Scroll/Swipe & Auto-Slide Engine ──
@@ -187,14 +187,11 @@ window.switchPlanTab = function (tab) {
 
 // ── 3. Gallery Lightbox Engine ───────────────────────────────
 const galleryItems = [
-  { src: 'images/gallery/g1.webp', title: 'Godrej Bannerghatta — Perspective View', category: 'Township Architecture' },
-  { src: 'images/gallery/g2.webp', title: 'Grand Clubhouse & Entrance', category: 'Clubhouse & Amenities' },
-  { src: 'images/gallery/g3.webp', title: 'Lush Green Sanctuary', category: 'Nature & Landscapes' },
-  { src: 'images/gallery/g4.webp', title: 'Modern Living Interiors', category: 'Luxury Residences' },
+  { src: 'images/gallery/g1.webp', title: 'Master Aerial View', category: 'Township Overview' },
+  { src: 'images/gallery/g2.webp', title: 'Grand Clubhouse & Promenade', category: 'Club & Architecture' },
+  { src: 'images/gallery/g3.webp', title: 'Grand Entrance Lobby', category: 'Tower Arrival' },
+  { src: 'images/gallery/g4.webp', title: 'Living & Dining Area', category: 'Luxury Residences' },
   { src: 'images/gallery/g5.webp', title: 'Master Bedroom Suite', category: 'Luxury Residences' },
-  { src: 'images/gallery/g6.webp', title: 'Evening Elevation & Promenade', category: 'Architectural View' },
-  { src: 'images/gallery/g7.webp', title: 'Skyline & Forest Views', category: 'Panoramic Scenery' },
-  { src: 'images/gallery/g8.webp', title: 'Lifestyle Community Deck', category: 'Recreation & Leisure' },
 ];
 
 let curGalleryIdx = 0;
